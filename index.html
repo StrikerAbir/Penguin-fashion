@@ -8,8 +8,22 @@
     <title>Document</title>
     <!-- tailwind css -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
  </head>
  <body>
-    
+    <h1 class="bg-purple-300 text-5xl uppercase font-bold">
+        <span class="text-yellow-300">Be the penguin</span>
+        <span>Of winter</span>
+    </h1>
  </body>
  </html>
